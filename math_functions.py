@@ -7,8 +7,6 @@ def isPrime(number):
             isPrime = False
             break
 
-
-isPrime(1)
 if(isPrime == True):
     print("number is prime")
 else:
