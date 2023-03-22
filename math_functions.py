@@ -1,15 +1,17 @@
 ###################### Prime Number Checker ##############################
 def isPrime(number):
-    global isPrime
-    isPrime = True
+    prime = True
     for i in range(2, number):
         if(number % i == 0):
-            isPrime = False
+            prime = False
             break
-    return isPrime
+    return prime
+
 '''
-#Use here if you need it. 
-if(isPrime == True):
+# Use here if you need it.
+result = isPrime(99)
+print(result)
+if(result == True):
     print("number is prime")
 else:
     print("number is not prime")
