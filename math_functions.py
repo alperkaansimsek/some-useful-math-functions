@@ -9,7 +9,7 @@ def isPrime(number):
 
 '''
 # Use here if you need it.
-result = isPrime(99)
+result = isPrime(int(input()))
 print(result)
 if(result == True):
     print("number is prime")
