@@ -6,6 +6,7 @@ def isPrime(number):
         if(number % i == 0):
             isPrime = False
             break
+    return isPrime
 '''
 #Use here if you need it. 
 if(isPrime == True):
